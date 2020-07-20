@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {ApolloProvider} from '@apollo/client';
+import { ApolloProvider } from '@apollo/client';
 import '../node_modules/bulma/css/bulma.css';
 import * as auth from './auth';
 import RepoInfo from './components/RepoInfo';
@@ -12,7 +12,7 @@ ReactDOM.render(
       <RepoInfo />
     </ApolloProvider>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('root'),
 );
 
 // If you want your app to work offline and load faster, you can change
